@@ -1,0 +1,84 @@
+/*
+body{
+    background-image: 
+}
+*/
+html, body{ height:100%; margin:0; }
+
+footer{ height:120px;  background: linear-gradient(to right, darkblue, red);}
+
+/* Trick */
+body{ 
+  display:flex; 
+  flex-direction:column; 
+}
+
+footer{
+  margin-top:auto; 
+}
+ 
+
+
+body{
+    background-color: black;
+/*background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");*/
+}
+.card{
+        margin-top: 10px;
+}
+.banner{
+    margin-top: 30px;
+}
+
+.h{
+    height: 550px !important;
+    
+   
+}
+.h1i{
+    display: inline;
+}
+
+.navbar-brand,.nav-link{
+    color: white !important;
+    
+}
+.nav-link:hover{
+    background-color: black;
+    color: blue !important;
+    
+    
+}
+.btn-warning:hover{
+     color: blue !important;
+}
+.carousel-item img{
+
+  opacity: 0.4;
+
+}
+form{
+    background: white;
+    margin: 30px auto;
+    width: 60%;
+    padding: 20px;
+}
+.formhead{
+
+    color: orange;
+    margin-top: 40px;
+}
+.sclg{
+    border: 1px solid orange;
+
+}
+.faq{
+    width: 80%;
+    margin: 20px auto;
+}
+footer{
+   
+    
+/*    color: white;*/
+}
+

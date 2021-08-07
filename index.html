@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-us" oncontextmenu="return false">
+<head> 
+    <title>College predictor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--    ANCHORS-->
+    
+    
+
+
+    
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    
+    
+    
+    <script src="js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!--   USER CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    
+    
+    
+<!--    Internal CSS-->
+    <style>
+        .card{
+            margin-top: 10px !important;
+        }
+    </style>
+ 
+    <script>
+       
+    
+    function submit12(){
+        alert("Submitted");
+        
+        document.getElementById("f1").innerHTML="Thanks for your response";
+        document.getElementById("meg1").innerHTML="<style='display:none;'";
+    }
+    
+    
+    
+    </script>
+    
+
+    
+</head>
+    
+    
+<body>
+   
+    
+
+
+    <nav class="navbar sticky-top navbar-expand-lg  navbar-light bg-success">
+ <a class="navbar-brand" href="#">
+    <img src="images/i1home.png" width="40" height="40" class="d-inline-block align-top" alt="CCC">
+    <h3 class="h1i">College Predictor</h3>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        
+  <div class="collapse navbar-collapse " id="navbarNav">
+      
+      
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" style="margin-left: 20px;">
+        <a class="btn btn-success" href="contact.html" role="button">Contact Me!</a>
+    
+  </li>
+        
+        <li class="nav-item active">
+        <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="ceg.html">CEG<span class="sr-only">(current)</span></a>
+      </li>
+        
+        
+        <li class="nav-item active" style="margin-left: 20px;">
+            <a class="btn btn-warning" href="searchclg.html" role="button">Search colleges</a>
+        
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+    
+    
+    
+    
+    <div class="banner">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="3000">
+      <img src="images/ceg.jpeg" class="h d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>CEG</h1>
+        
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="images/mit.jpg" class="h d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>MIT</h1>
+        
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="000">
+      <img src="images/ssn.jfif" class="h d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>SSN</h1>
+        
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        
+</div>
+    
+    
+    
+    
+    
+    
+       <h3 align="center" id="meg1"class="formhead">Frequently Asked Questions</h3>
+    <div class="faq">
+   <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          How complete is the project?
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        The project is complete. But only has options for 3 colleges it is a tedious work for me to add 400+ colleges so added the top 3.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          What is the objective of this project?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        This tool/website is used to predict colleges of Tamil nadu engineering admission.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         How is this project made?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        This project is done using HTML,CSS,JAVASCRIPT and backend technologies PHP and MYSQL.
+      </div>
+    </div>
+  </div>
+</div> 
+    
+    
+    </div>
+    
+    
+    <h3 align="center" id="meg1"class="formhead">Interact with Us!</h3>
+<form id="f1">
+    
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Please enter your email for our newsletter</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+ 
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Rate my website</label>
+    <select  id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Give your valuable feedback</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    
+    <button type="submit"class="btn btn-primary" onClick="submit12()">Submit</button>
+</form>
+    
+    
+   <!-- Footer -->
+<footer class="page-footer font-small" style="color: white;">
+    <div class="text-center">
+        <a href="https://mail.google.com" target="_blank">
+
+<img src="images/mail.png"></a>
+         <a href="https://instagram.com" target="_blank">
+             <img src="images/insta.png"></a>
+       <a href="https://facebook.com" target="_blank">
+           <img src="images/icons8-facebook-64%20(1).png"></a>
+        </div>
+    
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: Harishankar H IT-dept,CEG
+   
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    
+    
+    </body>
+
+</html>
